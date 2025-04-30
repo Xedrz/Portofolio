@@ -12,13 +12,13 @@ export default function About() {
       
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-        I’m an Information Technology student with a deep interest in frontend development. 
+        I&#39;m an Information Technology student with a deep interest in frontend development. 
         I enjoy building responsive and user-friendly interfaces using technologies like React.js. 
         From translating UI designs to writing clean and efficient code, I strive to create web experiences that are both functional and visually engaging.{" "}
         </p>
         <p className="text-start  text-muted-foreground lg:px-6">
-        I'm always learning and exploring new tools, frameworks, and design practices to improve my skills. 
-        I’m passionate about creating digital products that are intuitive, accessible, and impactful—and I'm excited to contribute to real-world projects that make a difference.
+        I&#39;m always learning and exploring new tools, frameworks, and design practices to improve my skills. 
+        I&#39;m passionate about creating digital products that are intuitive, accessible, and impactful—and I&#39;m excited to contribute to real-world projects that make a difference.
         </p>
       </div>
     </section>

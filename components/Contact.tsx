@@ -19,9 +19,9 @@ export default function Contact() {
         Let’s connect!
         </p>
         <p className="text-start text-muted-foreground lg:px-8">
-        I'm currently open to internship or freelance opportunities, especially in frontend development. 
+        I&#39;m currently open to internship or freelance opportunities, especially in frontend development. 
         Whether you have a question, a project idea, feel free to reach out. 
-        I’ll get back to you as soon as possible!
+        I&#39;ll get back to you as soon as possible!
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">

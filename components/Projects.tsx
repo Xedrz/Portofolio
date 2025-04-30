@@ -12,74 +12,47 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/vela.avif",
-    title: "Vela Exchange - Product Design",
+    imagePath: "/Maze.avif",
+    title: "Maze Runner - Python Game",
     description:
-      "Led a team of 4 designers, implementing design systems and processes to launch flagship features like Duels, Accounts, Loyalty Tiers, and Notification Tray and System.",
+      "Maze Runner is a simple 2D maze game built with Python using Object-Oriented Programming (OOP) principles. Players must navigate through complex mazes to reach the goal, avoiding dead ends and obstacles. The game structure is modular, with each element like the player and maze walls represented as objects, making the code organized and scalable.",
+    skills: [
+      "Problem Solving",
+      "Python",
+      "Object-Oriented Programming",
+      "UI/UX Design",
+      "Game Design",
+    ],
+    link: "https://github.com/Xedrz/Maze_Runner",
+  },
+  {
+    imagePath: "/Pantas.avif",
+    title: "Pantas - Election Website",
+    description:
+      "PANTAS (Quality Election) is a conceptual design for a mobile and web application aimed at promoting transparent and fair elections. The design focuses on user-friendly interfaces, access to candidate information, and public engagement features.",
     skills: [
       "Product Design",
       "UI/UX Design",
       "Design System",
       "Design Strategy",
-      "Vercel",
       "Figma",
     ],
-    link: "https://vela.exchange",
+    link: "https://www.figma.com/design/jjhvIkuu7mQWIte3qP49uO/PANTAS---RB-9?node-id=0-1&t=CtQ0Y23VDJSGgxg5-1",
   },
   {
-    imagePath: "/l3x.avif",
-    title: "L3X Network - Founding Product Design",
+    imagePath: "/ShopEasy.avif",
+    title: "ShopEasy - E-commerce Website",
     description:
-      "L3X Network is a Layer 3 interoperability blockchain designed to provide institutions, developers, and users with secure, compliant, and efficient access to decentralized finance (DeFi) markets. My role involved founding and leading the design team, mapping UX, and designing the protocol's Landing Page and Interfaces for the Bridge, Trading, Swap, and Staking platforms.",
+      "ShopEasy, E-Commerce Website is a frontend project that simulates an online shopping experience using a Fake API. The site allows users to browse products, view details, and add items to a cart, showcasing core functionalities of a modern e-commerce platform.ighlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
     skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://l3x.com",
-  },
-  {
-    imagePath: "/swoop-og-banner.webp",
-    title: "Swoop Exchange - Landing Page",
-    description:
-      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
-    skills: [
-      "Next.js",
-      "Framer",
-      "Shadcn/ui",
-      "Typescript",
+      "React.js",
+      "API Integration",
       "JavaScript",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://swoop.exchange",
-  },
-  {
-    imagePath: "/app-front-1.png",
-    title: "Swoop Exchange - Application Design",
-    description:
-      "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
-    skills: [
-      "Next.js",
-      "Typescript",
-      "JavaScript",
-      "MUI",
       "Tailwind CSS",
-      "Vercel",
-      "Figma",
+      "HTML",
+      "Typescript",
     ],
-    link: "https://app.mtopswap.com",
-  },
-  {
-    imagePath: "/meikopoulos.com_PC.png",
-    title: "meikopoulos.com",
-    description:
-      "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
-    skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
-    link: "https://github.com/0xAlexander/my-website",
+    link: "https://github.com/Xedrz/ShopEasy",
   },
 ];
 

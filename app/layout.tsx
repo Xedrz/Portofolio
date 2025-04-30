@@ -7,34 +7,29 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://jonathanjethro.com"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://jonathanjethro.com",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Jonathan Jethro - Computer Science Student",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "Jonathan Jethro is a Computer Science Student",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Jonathan Jethro, Computer Science Student",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Jonathan Jethro",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Jonathan Jethro",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
-    images: [
-      {
-        url: "./og-large-meik-2.jpg",
-      },
-    ],
+      "Jonathan Jethro is a Computer Science Student.",
+    url: "https://jonathanjethro.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Jonathan Jethro",
   },
-};
+};  
 
 export default function RootLayout({
   children,

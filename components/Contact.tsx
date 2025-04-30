@@ -16,22 +16,27 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          If you&#39;re considering my contribution, have a question, or just
-          want to say hi, you can count on hearing back from me!
+        Let’s connect!
+        </p>
+        <p className="text-start text-muted-foreground lg:px-8">
+        I'm currently open to internship or freelance opportunities, especially in frontend development. 
+        Whether you have a question, a project idea, feel free to reach out. 
+        I’ll get back to you as soon as possible!
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:jonathan.122140213@student.itera.ac.id"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
         >
+          jonathan.122140213@student.itera.ac.id
           <Button variant={"default"} className="w-full h-full">
             <div className="flex flex-row items-center">
               <Mail className="dark:text-white text-muted h-6 w-6" />
               <p className="ml-3 text-2xl dark:text-white text-muted">
-                Say hello
+                Connect
               </p>
             </div>
           </Button>

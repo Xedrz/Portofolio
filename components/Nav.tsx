@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Github, DownloadIcon, Linkedin } from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -55,10 +55,10 @@ export default function Nav() {
           Hi, i&#39;m Jonathan 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Computer Science Student.
+        Cyber Security Enthusiast .
         </h2>
-        <p className="text-lg lg:text-start text-muted-foreground">
-        A dedicated IT student specializing in frontend development, driven by a passion for building clean, interactive, and accessible web applications that enhance user experience.
+        <p className="text-justify text-muted-foreground ">
+        A passionate cyber security enthusiast with a strong interest in penetration testing (pentest), focused on identifying and analyzing system vulnerabilities to improve digital security and fortify defenses.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -97,7 +97,15 @@ export default function Nav() {
             <Linkedin className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
-
+        <Button variant="outline" size="icon">
+        <a
+          href="/cv.pdf"  // Pastikan path-nya sesuai dengan lokasi file di proyekmu
+          download
+          className="inline-flex items-center justify-center p-2 bg-blue-500 text-white rounded-full hover:bg-blue-700"
+        >
+          <DownloadIcon className="h-6 w-6" />
+        </a>
+        </Button> 
         <ModeToggle />
       </ul>
     </header>

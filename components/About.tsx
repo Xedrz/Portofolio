@@ -11,14 +11,12 @@ export default function About() {
       </div>
       
       <div className="flex flex-col gap-4">
-        <p className="text-start text-muted-foreground lg:px-6">
-        I&#39;m an Information Technology student with a deep interest in frontend development. 
-        I enjoy building responsive and user-friendly interfaces using technologies like React.js. 
-        From translating UI designs to writing clean and efficient code, I strive to create web experiences that are both functional and visually engaging.{" "}
+        <p className="text-justify text-muted-foreground lg:px-6">
+        I&#39;m a 6th-semester Information Technology student with a strong interest in Cybersecurity, particularly in areas like penetration testing, ethical hacking, and red team operations. 
+        I enjoy solving real-world security challenges through platforms like TryHackMe and continually strive to deepen my understanding of network security, system vulnerabilities, and secure coding practices.{" "}
         </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-        I&#39;m always learning and exploring new tools, frameworks, and design practices to improve my skills. 
-        I&#39;m passionate about creating digital products that are intuitive, accessible, and impactful—and I&#39;m excited to contribute to real-world projects that make a difference.
+        <p className="text-justify text-muted-foreground lg:px-6">
+        Passionate about learning through hands-on labs and CTFs, I&#39;m working towards building a solid foundation in offensive security while also exploring defensive strategies to get a well-rounded perspective in the cybersecurity domain.
         </p>
       </div>
     </section>

@@ -12,47 +12,59 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/Maze.avif",
-    title: "Maze Runner - Python Game",
+    imagePath: "/owasp.avif",
+    title: "OWASP Top 10 Documentation",
     description:
-      "Maze Runner is a simple 2D maze game built with Python using Object-Oriented Programming (OOP) principles. Players must navigate through complex mazes to reach the goal, avoiding dead ends and obstacles. The game structure is modular, with each element like the player and maze walls represented as objects, making the code organized and scalable.",
+      "This documentation covers an in-depth exploration of the top ten most critical web application vulnerabilities identified by OWASP (Open Worldwide Application Security Project). Through practical labs in TryHackMe, I explored and mitigated each vulnerability, from Broken Access Control and Cryptographic Failures to Server-Side Request Forgery (SSRF). Each section includes theoretical explanations along with practical exploitation steps to identify and address these issues in web applications. This documentation is designed to provide hands-on knowledge that can be directly applied to web application security testing.",
+    skills: [
+      "OWASP Top 10",
+      "Web Application Security",
+      "Vulnerability Assessment",
+      "Penetration Testing",
+      "Security Best Practices",
+    ],
+    link: "https://github.com/Xedrz/owasp-top-10-doc",
+  },
+  {
+    imagePath: "/defensive.avif",
+    title: "Defensive Security Introduction",
+    description:
+      "Defensive Security refers to the practices and strategies used to protect an organization's systems, networks, and data from cyber threats. It focuses on proactively preventing, detecting, and responding to attacks to minimize risks and reduce potential damage. Defensive security involves a combination of technologies, policies, and procedures aimed at safeguarding against unauthorized access, data breaches, malware, and other forms of cyberattacks.",
+    skills: [
+      "Defensive Security",
+      "Security Information and Event Management (SIEM)",
+      "IPSec",
+    ],
+    link: "https://github.com/Xedrz/Defensive-Security-Introduction-/blob/main/Defensive_Security_intro.pdf",
+  },
+  {
+    imagePath: "/nmap.avif",
+    title: "Nmap Documentation",
+    description:
+      "Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It allows users to scan hosts and services on a network to identify open ports, running services, operating systems, and potential vulnerabilities. Nmap is widely used in ethical hacking and penetration testing.",
+    skills: [
+      "Nmap",
+      "Enumeration",
+      "Scanning",
+    ],
+    link: "https://github.com/Xedrz/Nmap_Documentation/",
+  },
+
+  {
+    imagePath: "/MrRobot.avif",
+    title: "Mr Robot - CTF Challenge",
+    description:
+      "A web-based Capture The Flag challenge inspired by the Mr. Robot series. This room focuses on enumeration, password cracking, reverse shells, and privilege escalation using Linux SUID binaries. Successfully captured all three flags and gained root access through manual exploitation steps.",
     skills: [
       "Problem Solving",
-      "Python",
-      "Object-Oriented Programming",
-      "UI/UX Design",
-      "Game Design",
+      "Nmap",
+      "CTF",
+      "Enumeration",
+      "Password Cracking",
+      "Reverse Shells",
+      "Privilege Escalation",
     ],
-    link: "https://github.com/Xedrz/Maze_Runner",
-  },
-  {
-    imagePath: "/Pantas.avif",
-    title: "Pantas - Election Website",
-    description:
-      "PANTAS (Quality Election) is a conceptual design for a mobile and web application aimed at promoting transparent and fair elections. The design focuses on user-friendly interfaces, access to candidate information, and public engagement features.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Figma",
-    ],
-    link: "https://www.figma.com/design/jjhvIkuu7mQWIte3qP49uO/PANTAS---RB-9?node-id=0-1&t=CtQ0Y23VDJSGgxg5-1",
-  },
-  {
-    imagePath: "/ShopEasy.avif",
-    title: "ShopEasy - E-commerce Website",
-    description:
-      "ShopEasy, E-Commerce Website is a frontend project that simulates an online shopping experience using a Fake API. The site allows users to browse products, view details, and add items to a cart, showcasing core functionalities of a modern e-commerce platform.ighlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
-    skills: [
-      "React.js",
-      "API Integration",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "Typescript",
-    ],
-    link: "https://github.com/Xedrz/ShopEasy",
+    link: "https://github.com/Xedrz/Mr-Robot-CTF-writeups",
   },
 ];
 

@@ -13,14 +13,10 @@ export default function Contact() {
       </div>
       <div className="flex flex-col gap-4 lg:px-6 mb-8">
         <h2 className="lg:block hidden text-5xl font-bold lg:text-start">
-          Get In Touch
+          Let&#39;s Connect
         </h2>
-        <p className="lg:text-lg lg:text-start text-muted-foreground">
-        Let’s connect!
-        </p>
         <p className="text-start text-muted-foreground lg:px-8">
-        I&#39;m currently open to internship or freelance opportunities, especially in frontend development. 
-        Whether you have a question, a project idea, feel free to reach out. 
+        I&#39;m currently open to internship or freelance opportunities. feel free to reach out. 
         I&#39;ll get back to you as soon as possible!
         </p>
       </div>

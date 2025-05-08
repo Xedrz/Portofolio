@@ -99,7 +99,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
         <a
-          href="/cv.pdf"  // Pastikan path-nya sesuai dengan lokasi file di proyekmu
+          href="/Jonathan Jethro-resume.pdf"  
           download
           className="inline-flex items-center justify-center p-2 bg-blue-500 text-white rounded-full hover:bg-blue-700"
         >
